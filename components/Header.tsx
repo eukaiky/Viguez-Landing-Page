@@ -50,7 +50,7 @@ export default function Header() {
           )}
         </button>
 
-        <Button className="hidden min-[556px]:block">Entrar em Contato</Button>
+        <Button className="font-sans font-medium px-6 py-5 text-base">Contrate-nos</Button>
       </div>
 
       {isMenuOpen && (
@@ -97,7 +97,7 @@ export default function Header() {
           </ul>
 
           <div className="mt-8">
-            <Button className="w-full text-base" onClick={toggleMenu}>
+            <Button className="w-full text-base" size={"lg"} onClick={toggleMenu}>
               Entrar em Contato
             </Button>
           </div>

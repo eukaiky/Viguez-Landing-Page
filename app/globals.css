@@ -15,7 +15,7 @@
   --padding-big: 214px;        /* 1920px+ large screens */
   
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
+  --background: #FAFCFF;
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
@@ -52,7 +52,7 @@
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
   --color-primary-dark: var(--primary-dark);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-montserrat);
   --font-mono: var(--font-geist-mono);
 
   /* Responsive spacing utilities */
