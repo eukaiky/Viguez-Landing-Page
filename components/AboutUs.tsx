@@ -1,7 +1,7 @@
 export default function AboutUs() {
   return (
-    <section>
-      <div className="w-full bg-primary flex items-center flex-col px-mobile md:px-tablet lg:px-laptop xl:px-desktop 2xl:px-big py-16">
+    <section id="about">
+      <div className="w-full bg-primary flex items-center flex-col px-mobile md:px-tablet lg:px-laptop xl:px-desktop 2xl:px-big py-10">
         <p className="text-sm md:text-lg text-white font-sans mb-4 font-extralight tracking-[1rem] uppercase">
           Sobre Nós
         </p>

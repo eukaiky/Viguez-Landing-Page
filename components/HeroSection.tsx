@@ -29,7 +29,7 @@ export default function HeroSection() {
             <br />
             Sistemas de
             <br />
-            <span className="outline-primary underline underline-offset-8 decoration-primary decoration-4">
+            <span className="underline underline-offset-8 decoration-primary decoration-5">
               qualidade
             </span>
           </h1>
