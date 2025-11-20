@@ -14,6 +14,7 @@ export default function OurServices() {
               <Star className="w-5 h-5 fill-black/15 stroke-transparent"></Star>
               <Star className="w-5 h-5 fill-black/15 stroke-transparent"></Star>
               <Star className="w-5 h-5 fill-black/15 stroke-transparent"></Star>
+              <Star className="w-5 h-5 fill-black/15 stroke-transparent"></Star>
             </div>
             <div className="flex items-start flex-col gap-4">
               <h2 className="text-xl md:text-5xl font-sans font-medium">
@@ -26,7 +27,7 @@ export default function OurServices() {
             </div>
           </div>
           
-          {/* Separator - horizontal on mobile, vertical on desktop */}
+          {/* Separator*/}
           <div className="flex lg:hidden items-center justify-center w-full py-6">
             <div className="h-px w-full bg-black/20"></div>
           </div>
@@ -53,7 +54,7 @@ export default function OurServices() {
             </div>
           </div>
           
-          {/* Separator - horizontal on mobile, vertical on desktop */}
+          {/* Separator */}
           <div className="flex lg:hidden items-center justify-center w-full py-6">
             <div className="h-px w-full bg-black/20"></div>
           </div>

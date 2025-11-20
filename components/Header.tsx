@@ -22,7 +22,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed top-0 left-0 w-full bg-transparent z-50 flex items-center justify-between px-4 md:px-6 lg:px-8 xl:px-12 2xl:px-16 py-2 md:py-3 backdrop-blur-sm border-b border-black/10">
+      <header className="fixed top-0 left-0 w-full bg-transparent z-50 flex items-center justify-between px-4 md:px-6 lg:px-8 xl:px-12 2xl:px-16 py-2 md:py-3 backdrop-blur-none md:backdrop-blur-sm md:border-b border-black/10">
         <div className="flex items-center gap-3 min-[556px]:gap-0">
           <button
             type="button"
@@ -73,6 +73,14 @@ export default function Header() {
               </Link>
             </li>
             <li>
+              <Link
+                href="#projects"
+                className="hover:opacity-70 transition-opacity"
+              >
+                Projetos{" "}
+              </Link>
+            </li>
+            <li>
               <Link href="#faq" className="hover:opacity-70 transition-opacity">
                 FAQ
               </Link>
@@ -119,6 +127,15 @@ export default function Header() {
                 onClick={toggleMenu}
               >
                 Serviços
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#projects"
+                className="block hover:opacity-70 transition-opacity"
+                onClick={toggleMenu}
+              >
+                Projetos
               </Link>
             </li>
             <li>
